@@ -18,6 +18,6 @@ jobs:
 
       - name: Simulate long running task
         run: |
-          echo "Starting a long-running task..."
+          echo "Starting a long-running task...Now make some changes in main branch within 100s and commit it"
           sleep 100
           echo "Task completed!"
