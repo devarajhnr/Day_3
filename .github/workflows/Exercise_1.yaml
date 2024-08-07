@@ -1,0 +1,14 @@
+name: Scheduling a Workflow
+
+on:
+  schedule:
+    - cron: '07 09 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+
+      - name: Run a script
+        run: echo "This is a scheduled action!"
