@@ -2,7 +2,7 @@ name: Scheduling a Workflow
 
 on:
   schedule:
-    - cron: '13 07 * * *'
+    - cron: '30 07 * * *'
 
 jobs:
   build:
