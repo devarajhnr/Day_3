@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v3
       - name: Notify PR creation
         run: |
-          echo "A pull request has been created targeting the main branch."
+          echo "A pull request has been created targeting the main branch.Please monitor"
